@@ -1,0 +1,18 @@
+package calculadora;
+
+import java.awt.GridLayout;
+
+import javax.swing.JPanel;
+
+@SuppressWarnings("serial")
+public class Teclado extends JPanel {
+	
+	private final Color COR_CINZA_ESCURO = new Color(rgb);
+
+	public Teclado() {
+		
+		setLayout(new GridLayout(5, 4));
+		
+		add(new Botao("AC", cor));
+	}
+}
